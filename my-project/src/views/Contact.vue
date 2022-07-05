@@ -1,6 +1,6 @@
 <template>
   <main class="contact-page">
-    <h1>Contact US</h1>
+    <h1>Contact Us</h1>
     <form @submit.prevent="handleSubmit">
       <label for="name">
         Name:

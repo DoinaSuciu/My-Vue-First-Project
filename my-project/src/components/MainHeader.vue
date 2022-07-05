@@ -1,6 +1,6 @@
 <template>
   <nav class="main-header">
-    <span>LOGO</span>
+    <span>THE LAB ROOM</span>
     <ul>
       <li v-for="item in menu">
       <router-link :to="item.path">
@@ -28,6 +28,10 @@
           {
             name: 'Contact',
             path: '/contact'
+          },
+           {
+            name: 'Blog',
+            path: '/blog'
           }
         ]
       }
