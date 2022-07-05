@@ -40,22 +40,21 @@
 </script>
 
 <style lang="scss">
-.main-header {
- display: flex;
- justify-content: space-between;
- align-items: center;
- border-bottom: 1px solid lightgray;
+  .main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
 
-  ul{
-    display: flex;
-    li {
-      &:not(:last-child){
-        font-weight: bold;
-        margin-right: 16px;
-        display: inline-block;
+    ul{
+      display: flex;
+      li {
+        &:not(:last-child){
+          font-weight: bold;
+          margin-right: 16px;
+          display: inline-block;
+        }
       }
     }
   }
-}
-
 </style>

@@ -29,49 +29,49 @@
 </template>
 
 <script>
-export default {
-  name: 'Contact',
-  methods: {
-    handleSubmit() {
-      console.log('send details to server')
+  export default {
+    name: 'Contact',
+    methods: {
+      handleSubmit() {
+        console.log('send details to server')
+      }
     }
   }
-}
 </script>
 
 <style lang="scss">
-.contact-page {
-  form {
-    width: 600px;
-    margin: 0 auto;
-    label{
-      display: block;
-      text-align: left;
-      margin-bottom: 15px;
-    }
-    input, textarea {
-      display: block;
-      width: 100%;
-      resize: none;
-      font-family: Avenir, Helvetica, Arial, sans-serif;
-      padding: 8px 5px;
+  .contact-page {
+    form {
+      width: 600px;
+      margin: 0 auto;
+      label{
+        display: block;
+        text-align: left;
+        margin-bottom: 15px;
+      }
+      input, textarea {
+        display: block;
+        width: 100%;
+        resize: none;
+        font-family: Avenir, Helvetica, Arial, sans-serif;
+        padding: 8px 5px;
 
-    }
-    button {
-      display: block;
-      align-self: center;
-      margin: 50px auto 0;
-      color: white;
-      background-color: black;
-      font-size: 18px;
-      min-height: 40px;
-      min-width: 100px;
-      border: none;
-      padding: 12px 24px;
-      border-radius: 100px;
-      cursor: pointer;
+      }
+      button {
+        display: block;
+        align-self: center;
+        margin: 50px auto 0;
+        color: white;
+        background-color: black;
+        font-size: 18px;
+        min-height: 40px;
+        min-width: 100px;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 100px;
+        cursor: pointer;
+      }
     }
   }
-}
 
 </style>
